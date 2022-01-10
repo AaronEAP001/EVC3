@@ -20,5 +20,6 @@
     <color name="secobd_one">#ECECEC</color>
     <color name="secodb_tw">#425A5A5A</color>
     <color name="secodb_txt">#5A5A5A</color>
+    <color name="secobd_one_home">#80ECECEC</color>
 
 </resources>

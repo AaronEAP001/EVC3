@@ -17,5 +17,6 @@
 
     <string name="header_toolbar_setting">Settings</string>
     <string name="setting_title_btn">Edit Image</string>
+    <string name="history_data">History</string>
 
 </resources>

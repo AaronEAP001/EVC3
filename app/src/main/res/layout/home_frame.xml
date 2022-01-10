@@ -7,7 +7,7 @@
     tools:context=".HomeFrame">
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:background="@color/white">
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/app_bar"
@@ -47,6 +47,130 @@
             android:layout_width="match_parent"
             android:layout_height="220dp"
             android:src="@drawable/img_banner"/>
+        <RelativeLayout
+            android:padding="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Transactions"
+                android:textSize="20sp"/>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/back_button_scd"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+                android:padding="8dp"/>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:background="@drawable/back_button_home"
+            android:padding="15dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/back_button_scd_tw"
+                android:id="@+id/nightModeIcon"
+                android:src="@drawable/night_mode_24"
+                android:padding="8dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="Spotify Music"
+                android:textSize="16sp"
+                android:textColor="@color/secodb_txt"
+                android:layout_toEndOf="@+id/nightModeIcon"
+                android:layout_marginStart="16dp"
+                android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="S/ 34.5"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp">
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/back_button_scd_tw"
+                    android:id="@+id/nightMode2Icon"
+                    android:src="@drawable/night_mode_24"
+                    android:padding="8dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="figma"
+                    android:textSize="16sp"
+                    android:textColor="@color/secodb_txt"
+                    android:layout_toEndOf="@+id/nightMode2Icon"
+                    android:layout_marginStart="16dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="S/ 17.9"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp">
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/back_button_scd_tw"
+                    android:id="@+id/nightMode3Icon"
+                    android:src="@drawable/night_mode_24"
+                    android:padding="8dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="YouTube Music"
+                    android:textSize="16sp"
+                    android:textColor="@color/secodb_txt"
+                    android:layout_toEndOf="@+id/nightMode3Icon"
+                    android:layout_marginStart="16dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="S/ 15.0"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"/>
+            </RelativeLayout>
+        </LinearLayout>
     </com.google.android.material.appbar.AppBarLayout>
 
 </ScrollView>

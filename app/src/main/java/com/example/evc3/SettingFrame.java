@@ -47,6 +47,7 @@ public class SettingFrame extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         View view = inflater.inflate(R.layout.setting_frame,container,false);
+
         editImage = view.findViewById(R.id.edit_image);
         set = view.findViewById(R.id.profile_image);
         pd = new ProgressDialog(this.getContext());
