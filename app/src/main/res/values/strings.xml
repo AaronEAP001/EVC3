@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ECOIDAT</string>
+    <string name="intro1">Easy way to manage your money</string>
+    <string name="intro2">Connect your money to your friend &amp; brands.</string>
+    <string name="btnIntro">get started</string>
+
+    <string name="login_str">ESTAS A PUNTO DE INICIAR!</string>
+    <string name="login_str2">Ingresa tu numero y nombres para iniciar sesion</string>
+    <string name="btn_star">INICIAR</string>
+
+    <string name="user_name">User Name</string>
+    <string name="login_number">insert number</string>
+    <string name="login_error">Ingresa un numero de 9 digitos!</string>
+
+    <string name="setting_title">configuracion</string>
+    <string name="search_title">Search</string>
+
+    <string name="header_toolbar_setting">Settings</string>
+    <string name="setting_title_btn">Edit porfile</string>
+
+</resources>

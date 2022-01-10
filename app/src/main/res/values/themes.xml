@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.EVC3" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorBtn</item>
+        <item name="colorPrimaryVariant">@color/colorBtn</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/principal1</item>
+        <item name="colorSecondaryVariant">@color/principal2</item>
+        <item name="colorOnSecondary">@color/principal3</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="widget.EVC3.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/colorBtn</item>
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+    </style>
+    <style name="SwitchMode" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/principal1</item>
+        <item name="colorSwitchThumbNormal">@color/principal1_sg</item>
+        <item name="android:colorForeground">@color/secodb_txt</item>
+    </style>
+</resources>
