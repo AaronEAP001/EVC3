@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -88,7 +88,7 @@
                     <ImageView
                         android:layout_width="40dp"
                         android:layout_height="40dp"
-                        android:background="@drawable/back_button_scd"
+                        android:background="@drawable/back_button_scd_tw"
                         android:id="@+id/nightModeIcon"
                         android:src="@drawable/night_mode_24"
                         android:padding="8dp"/>
@@ -118,7 +118,7 @@
                     <ImageView
                         android:layout_width="40dp"
                         android:layout_height="40dp"
-                        android:background="@drawable/back_button_scd"
+                        android:background="@drawable/back_button_scd_tr"
                         android:id="@+id/NotificationIcon"
                         android:src="@drawable/ico_notifications_24"
                         android:padding="8dp"/>
@@ -150,7 +150,7 @@
                         android:id="@+id/PrivateAccountIcon"
                         android:layout_width="40dp"
                         android:layout_height="40dp"
-                        android:background="@drawable/back_button_scd"
+                        android:background="@drawable/back_button_scd_fr"
                         android:padding="8dp"
                         android:src="@drawable/user_ico_24" />
                     <TextView
@@ -201,8 +201,45 @@
                         android:theme="@style/SwitchMode"/>
                 </RelativeLayout>
 
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/back_button_scd"
+                        android:id="@+id/nextIcon"
+                        android:src="@drawable/ico_cloud_24"
+                        android:padding="8dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="Security"
+                        android:textColor="@color/secodb_txt"
+                        android:layout_toEndOf="@+id/nextIcon"
+                        android:layout_marginStart="16dp"
+                        android:textStyle="bold"/>
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/back_button_scd"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+                            android:padding="8dp"/>
+
+                </RelativeLayout>
+                </LinearLayout>
+
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
 
-</LinearLayout>
+</FrameLayout>
