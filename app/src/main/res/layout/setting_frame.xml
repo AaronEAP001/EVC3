@@ -82,7 +82,9 @@
                 android:padding="15dp">
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp">
                     <ImageView
                         android:layout_width="40dp"
                         android:layout_height="40dp"
@@ -97,6 +99,97 @@
                         android:text="Night Mode"
                         android:textColor="@color/secodb_txt"
                         android:layout_toEndOf="@+id/nightModeIcon"
+                        android:layout_marginStart="16dp"
+                        android:textStyle="bold"/>
+                    <Switch
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:switchMinWidth="50dp"
+                        android:theme="@style/SwitchMode"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp">
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/back_button_scd"
+                        android:id="@+id/NotificationIcon"
+                        android:src="@drawable/ico_notifications_24"
+                        android:padding="8dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="Notification"
+                        android:textColor="@color/secodb_txt"
+                        android:layout_toEndOf="@+id/NotificationIcon"
+                        android:layout_marginStart="16dp"
+                        android:textStyle="bold"/>
+                    <Switch
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:switchMinWidth="50dp"
+                        android:theme="@style/SwitchMode"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp">
+
+                    <ImageView
+                        android:id="@+id/PrivateAccountIcon"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/back_button_scd"
+                        android:padding="8dp"
+                        android:src="@drawable/user_ico_24" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="Private account"
+                        android:textColor="@color/secodb_txt"
+                        android:layout_toEndOf="@+id/PrivateAccountIcon"
+                        android:layout_marginStart="16dp"
+                        android:textStyle="bold"/>
+                    <Switch
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:switchMinWidth="50dp"
+                        android:theme="@style/SwitchMode"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp">
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/back_button_scd"
+                        android:id="@+id/SecurityIcon"
+                        android:src="@drawable/ico_lock_24"
+                        android:padding="8dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="Security"
+                        android:textColor="@color/secodb_txt"
+                        android:layout_toEndOf="@+id/SecurityIcon"
                         android:layout_marginStart="16dp"
                         android:textStyle="bold"/>
                     <Switch
